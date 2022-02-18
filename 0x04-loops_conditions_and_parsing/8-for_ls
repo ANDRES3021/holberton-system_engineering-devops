@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Print all files in the current repo in list format
+
+for i in *;
+do
+    echo "$i" | cut -d '-' -f2
+done
